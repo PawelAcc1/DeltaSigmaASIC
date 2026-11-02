@@ -3,10 +3,10 @@ from scipy.signal import zpk2tf
 import deltasigma
 
 # modulator parameters for behavioral simulation
-order = 3
+order = 2
 OSR = 256
 opt = 0
-OBG = 3
+OBG = 2
 f0 = 0
 
 # NTF 

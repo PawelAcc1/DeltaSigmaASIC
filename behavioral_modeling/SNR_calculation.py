@@ -5,13 +5,13 @@ import scipy.signal
 # =================================================
 #               Modulator Parameters 
 # =================================================
-order = 3
+order = 2
 OSR = 256
 opt = 0
-OBG = 3
+OBG = 2
 f0 = 0
 f_max = 1 / (2 * OSR)
-quantizer_bits = 3
+quantizer_bits = 2
 Vref = 1
 
 # =================================================
